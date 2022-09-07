@@ -1,7 +1,16 @@
 /* Your app custom styles here */
+/* Custom color theme */
+
+:root {
+  --f7-theme-color: #1a2ead;
+  --f7-theme-color-rgb: 26, 46, 173;
+  --f7-theme-color-shade: #15258a;
+  --f7-theme-color-tint: #1f37d0;
+}
+
 /* poppins-regular - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Poppins'; 
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/poppins-v13-latin-regular.eot'); /* IE9 Compat Modes */
@@ -143,12 +152,15 @@
   font-feature-settings: 'liga';
   text-align: center;
 }
+
+/*
 .md:not([class*='color-theme']) {
   --f7-theme-color: #6200ee;
   --f7-theme-color-rgb: 98, 0, 238;
   --f7-theme-color-shade: #5100c5;
   --f7-theme-color-tint: #7718ff;
-}
+}  
+*/
 .demo-list-icon,
 .icon-f7 {
   background: #ccc;

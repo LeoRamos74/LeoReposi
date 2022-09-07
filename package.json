@@ -47,7 +47,11 @@
   "license": "ISC",
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
-    }
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-browsersync-gen2": {}
+    },
+    "platforms": [
+      "browser"
+    ]
   }
 }
